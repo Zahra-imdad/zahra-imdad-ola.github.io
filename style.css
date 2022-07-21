@@ -1,0 +1,76 @@
+a.nav-link.text-light::after{
+    content: ' | ';
+
+}
+.yellow{
+    background-color: #CCE500 !important;
+}
+.grey{
+    background-color:  #e9ecef;;
+}
+
+/* BANNER */
+.banner{
+    background-image: url('./img/banner.jpg');
+    background-size: cover;
+    min-height: 700px;
+}
+
+/* OCCASSION */
+span.card-icon.position-absolute {
+    top: -36px;
+    right: 12px;
+}
+
+/* RIDE */
+.ride-img img{
+    max-height: 150px;
+    max-width: 100%;
+}
+/* Download */
+.download-btn img{
+    height: 36px;
+}
+.download-app img{
+    height: 300px;   
+}
+.footer-icons img{
+    padding-right: 3rem;
+}
+.footer-bg{
+    background: #393939
+}
+footer ul li{
+    line-height: 20px !important;
+}
+footer ul li a, .copyright {
+    font-size: 12px;
+}
+h5{
+    font-size: 16px;
+}
+.footer-list a:hover,a.nav-link:hover{
+    color:green !important;
+}
+.carousel-control-prev-icon{
+    left: 0px;
+}
+.carousel-control-prev-icon , .carousel-control-next-icon{
+    width: 17px;
+    height: 17px;
+}
+.carousel-control-next-icon{
+    right:  0px;
+}
+.banner-carousel.position-absolute.shadow.bg-light.container-lg {
+    top: -60px;
+}
+.banner-carousel{
+    top:-69px;
+}
+
+@media screen and (max-width: 768px) {
+    .main-carousel.position-relative.pb-5{
+        margin-bottom: 166px;
+    }
+  }
