@@ -1,7 +1,7 @@
-a.nav-link.text-light::after{
+/* a.nav-link.text-light::after{
     content: ' | ';
 
-}
+} */
 .yellow{
     background-color: #CCE500 !important;
 }
@@ -68,6 +68,16 @@ h5{
 .banner-carousel{
     top:-69px;
 }
+
+.nav-tabs img.img-fluid {
+    height: 80px;
+    padding: 15px;
+}
+.nav-tabs img.img-fluid:hover,.tab-active {
+    background-color: #CCE500;
+    border-radius: 50%;
+}
+
 
 @media screen and (max-width: 768px) {
     .main-carousel.position-relative.pb-5{
